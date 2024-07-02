@@ -1,0 +1,741 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>mbmd || blog personal</title>
+  <meta name="title" content="mbmd || blog personal">
+  <meta name="description" content="Este es el blog personal para nuestros clientes">
+
+  <!-- 
+    - favicon
+  -->
+  <!-- COLOCAR LOGO DE EMPRESA EN FAVICON -->
+  <link rel="shortcut icon" href="assets/images/FAVICON.png" type="image/svg+xml"> 
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/LOGO-MBMD-SIN-FONDO.png" width="70" height="25" alt="MBMD logo">      
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/LOGO-MBMD-SIN-FONDO.png" width="70" height="25" alt="MBMD logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Servicios</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Trabajos</a>
+          </li>
+
+          <li>
+            <a href=".contacto" class="navbar-link hover-1" data-nav-toggler>Contacto</a>
+          </li>
+
+        </ul>
+
+        
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn-primary">Contactanoss</a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hola estimado/a!</p>
+
+            <h1 class="headline headline-1 section-title">
+              Bienvenido a <span class="span">MBMD.</span>
+            </h1>
+
+            <p class="hero-text">
+              Una empresa de construccion con mas de 20 años de experiencia en el 
+              rubro, con mas de 400 clientes que nos recomiendan
+              y elijen para sus proyectos, la mejor opcion para vos.
+            </p>
+
+            <a href="procesos.html" class="btn btn-primary">
+              <span class="span">Conocenos</span>
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+              
+          </div>
+
+          <div class="imgHero">
+            <div class="carousel">
+              <img src="assets/images/TRABAJO-INICIO-1.png" class="active">
+              <img src="assets/images/TRABAJO-INICIO-2.png">
+              <img src="assets/images/TRABAJO-INICIO-3.png">
+              <img src="assets/images/TRABAJO-INICIO-4.png" class="active">
+              <img src="assets/images/TRABAJO-INICIO-5.png">
+              <img src="assets/images/TRABAJO-INICIO-6.png">
+              <img src="assets/images/TRABAJO-INICIO-7.png">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Servicios que ofrecemos
+              </h2>
+
+              <p class="card-text">
+                Conoce nuestra gama de servicios que tenemos para ofrecerte...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/Albañileria.jpg" width="507" height="618" loading="lazy" alt="Albanileria"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Albanileria</span>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/electricidad.jpg" width="507" height="618" loading="lazy" alt="electricidad"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Electricidad</span>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/sanitario.png" width="507" height="618" loading="lazy" alt="sanitario"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Sanitaria</span>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/steel framing.jpg" width="507" height="618" loading="lazy" alt="steel framing"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Steel Framing</span>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/isopanel.jpg" width="507" height="618" loading="lazy" alt="isopanel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Isopanel</span>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/pintura.jpg" width="507" height="618" loading="lazy" alt="isopanel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Pintura</span>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature s1" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Conoce nuestros procesos</span>
+          </h2>
+
+          <p class="section-text">
+            ¡Porque todo arranco desde cero!, conoce el proceso de cada obra
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/FACHADAS-PROCESO.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <p class="span hover-2">#fachadas</p>
+                      <p class="span hover-2">#estetica</p>
+                    </div>
+
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Fachadas
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/fachada-inicio-5.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <p class="span hover-2">#Cocinas</p>
+
+                      <p class="span hover-2">#Moderno</p>
+                    </div>
+                    
+                  </div>
+
+                  <!--perfiles-->
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Cocinas
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/trabajo2.jpeg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Cocinas y electrodomésticos
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/trabajo5-baño.jpeg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Baños y sanitario
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/trabajo6-escaleras.jpeg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Escaleras y acabados
+                    </a>
+                  </h3>
+                  
+                </div>
+
+              </div>
+            </li>
+
+            <!-- ---- -->
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/pinturaEpoxi.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Pintura Epoxi
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/hormigon.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Hormigon
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/mantenimientoCasa.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3 headline-4">
+                    <a href="procesos.html" class="card-title hover-2">
+                      Mantenimientos
+                    </a>
+                  </h3>
+                  
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="procesos.html" class="btn btn-secondary">
+            <span class="span">Ver mas</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+     <!----------------------------------------------
+      ------- MODIFICAR SECCION CON LUGARES --------
+      ---------------------------------------------->
+
+      <section class="section recent-post s2" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Uruguay</span>
+            </h2>
+
+            <p class="section-text">
+              Hacemos trabajos en todo uruguay
+            </p>
+
+            
+              <!--montevideo-->
+
+              <li>
+                <div class="recent-post-card cont-card-uruguay">
+
+                  <figure class="card-banner img-holder">
+                    <img src="./assets/images/COLONIA.jpg" loading="lazy"
+                      alt="Trabajo en montevideo" class="img-cover">
+                  </figure>
+
+                  <figure class="card-banner img-holder" >
+                    <img src="./assets/images/MONTEVIDEO.jpg" loading="lazy"
+                      alt="Trabajo" class="img-cover">
+                  </figure>
+  
+
+                </div>
+              </li>
+
+
+
+              <!--Colonia-->
+
+              <li>
+                <div class="recent-post-card cont-card-uruguay">
+
+                  <figure class="card-banner img-holder">
+                    <img src="./assets/images/CANELONES.jpg" loading="lazy"
+                      alt="..." class="img-cover">
+                  </figure>
+
+                  <figure class="card-banner img-holder">
+                    <img src="./assets/images/MALDONADO.jpg" loading="lazy"
+                      alt="..." class="img-cover">
+                  </figure>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <!--fin de uruguay-->
+
+          <div class="post-aside grid-list contacto">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Metodo de contacto:</span>
+              </h3>
+
+              <div class="contact_form">
+                
+                <form action="https://formsubmit.co/mdmbconstructora@gmail.com" method="post" class="cont-contacto">	
+                  <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder=" Escribe tu nombre">
+                  </p>
+                            
+                  <p>
+                    <label for="email" class="colocar_email">Email
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder=" Escribe tu Email">
+                  </p>
+                          
+                  <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder=" Escribe tu teléfono">
+                  </p>	
+                            
+                  <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                    </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder=" Deja aquí tu comentario..."></textarea> 
+                  </p>	  								
+                            
+                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>					
+                        
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+              <img src="./assets/images/LOGO-MBMD-SIN-FONDO.png" width="70" height="25" alt="MBMD logo">      
+            </a>
+
+            <p class="footer-text">
+              En MBMD, nos dedicamos con pasión a transformar tus ideas en realidad. Con un equipo experto y comprometido, ofrecemos soluciones integrales en construcción que garantizan calidad, eficiencia y cumplimiento de plazos. Descubre cómo podemos construir juntos un futuro sólido y duradero.
+            </p>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categorias</p>
+
+            <ul>
+
+              <li>
+                <a href="index.html" class="footer-link hover-2">Home</a>
+              </li>
+
+              <li>
+                <a href="#topics" class="footer-link hover-2">Servicios</a>
+              </li>
+
+              <li>
+                <a href="#featured" class="footer-link hover-2">Trabajos</a>
+              </li>
+
+              <li>
+                <a href=".contacto" class="footer-link hover-2">Contacto</a>
+              </li>
+
+             
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Contacto</p>
+
+            <p class="footer-text">
+                
+            </p>
+            
+            <form  action="https://formsubmit.co/mdmbconstructora@gmail.com" method="POST">
+              <div class="input-wrapper">
+           
+                <input id="txtNombreForm" type="text" name="name" placeholder="Tu nombre" required class="input-field" autocomplete="off">
+  
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+              </div>
+  
+              <div class="input-wrapper">
+                <input id="txtMailForm" type="email" name="email_address" placeholder="E-Mail" required class="input-field"
+                  autocomplete="off">
+  
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              </div>
+  
+              <!-- <a href="#" class="btn btn-primary">
+                <span class="span">Enviar</span> -->
+                <button class="btn btn-primary" type="submit" id="BtnContacto"> <span class="span">Enviar</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </a>
+                
+            </form>
+            
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- ---- JS BOOTSRAP ---- -->
+  
+
+</body>
+
+</html>
